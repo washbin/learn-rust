@@ -1,0 +1,21 @@
+[package]
+name = "learn_rust"
+license = "MIT"
+description = "Learn the different aspects of rust programming language by reading the book"
+version = "0.1.0"
+edition = "2018"
+
+# Upload to crates.io
+# cargo login {api-key from crates.io}
+# add description/ license and metadata
+# cargo publish
+# Change version and cargo publish
+# published versions cant be deleted
+# yank to prevent new projects depending on a version
+# cargo yank --vers 0.1.0
+# undo yank to allow new project to depend
+# cargo yank --vers 0.1.0 --undo
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
